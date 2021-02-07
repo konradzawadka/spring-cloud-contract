@@ -1,4 +1,4 @@
-FROM openjdk:11.0.10-jre-slim-buster
+FROM adoptopenjdk:8u282-b08-jre-hotspot
 
 # Spring Cloud Contract
 ENV SERVER_PORT 8750
